@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+		font-size: 62.5%;
+}
+
+.red {
+		background-color: red;
+}
+
+.blue {
+		background-color: blue;
+}
+
+.green {
+		background-color: green;
+}
+
+.orange {
+			
+}
+
+.purple {
+			background-color: rebeccapurple;
+}
+
+.yellow {
+			background-color: yellow;
+}
+
+.teal {
+			background-color: teal;
+}
+
+.white {
+			background-color: white;
+			z-index: 1;
+			margin-top: 0rem;
+}
+
+body {
+		background-image: url("../images/naturalblack.png");
+		margin-bottom: 7.0rem;
+		font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+				font-family: 'Baloo Bhaina', cursive;
+}
+
+h1 {
+		color: white;
+		text-shadow: 0.2rem 0.2rem red;
+		
+}
+
+h2, h3 {
+			color: teal;
+}
+
+p, button {
+		font-family: 'Raleway', sans-serif;
+		z-index: 2;
+}
+
+/*hr {
+    height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}*/
+
+.topBuffer { margin-top:2.0rem; 
+}
+
+.bottomBuffer {
+				margin-bottom: 2.0rem;
+}
+
+.redBorder {
+				border-bottom: 0.5rem;
+				border-style: solid;
+				border-color: red;
+
+}
+.socialMediaLinks {
+					    width: 5.0rem;
+    					height: 5.0rem;
+    					
+}
+
+.profileImage {
+				margin: 1.0rem 1.5rem 0.2rem 0rem;
+}
+
+#aboutMeText {
+				margin-top: 1.5rem;
+}
+
+/*.portfolioImage {
+					margin-bottom: 1rem;
+					
+}*/				
+
+.portThumbs {
+    text-align:center;
+}
+
+.portThumbs > img {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}	
+footer {
+			/*border-top: 5px;
+			border-left: 0px;
+			border-right: 0px;
+			border-bottom: 0px;
+			border-style: solid;
+			border-color: #eee;*/
+			height: 5.5rem;
+			color: white;
+			background-color: #666;
+
+}
+
+.tealBorder {
+				border-top: 0.5rem;
+				border-style: solid;
+				border-color: teal;
+}
